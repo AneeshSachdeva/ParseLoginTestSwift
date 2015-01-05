@@ -16,6 +16,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // [Optional] Power your app with Local Datastore. For more info, go to
+        // https://parse.com/docs/ios_guide#localdatastore/iOS
+        Parse.enableLocalDatastore();
+        
+        // Initialize Parse.
+        Parse.setApplicationId("MtKBaTWekSz9bIIlyY8A4HNE1DgFApaGzACb6aF8", clientKey:"032C7WfYi5CTfg5PaYUN3xyhAF3Es1Ilia9d3uD6")
+        
+         // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+//        var testObject = PFObject(className: "TestObject")
+//        testObject["foot"] = "ball"
+//        testObject["pen"] = "15"
+//        
+//        testObject.saveInBackground()
+//        
+//        var object = PFObject(className: "Object")
+//        testObject["test"] = true
+//        
+//        object.saveInBackground()
+        
+/*
+        PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+        testObject[@"foo"] = @"bar";
+        [testObject saveInBackground];
+*/
+        
         return true
     }
 
