@@ -77,7 +77,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="147" y="471" width="107" height="30"/>
+                                    <rect key="frame" x="132" y="476" width="138" height="36"/>
                                 </variation>
                                 <connections>
                                     <action selector="createAccountButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dI4-Qu-sL4"/>
@@ -242,9 +242,6 @@
                                 <state key="normal" title="Create an account">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="138" y="637" width="126" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="5Ss-7X-Htk"/>
                                 </connections>

@@ -28,6 +28,7 @@
 		A50EB1251A562DBD002E0527 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A50EB1241A562DBD002E0527 /* libsqlite3.dylib */; };
 		A5D7A54E1A5780C600E5660D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7A54D1A5780C600E5660D /* LoginViewController.swift */; };
 		A5D7A5501A578D5400E5660D /* ValidDomains.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5D7A54F1A578D5400E5660D /* ValidDomains.txt */; };
+		A5D7A58D1A638AAA00E5660D /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D7A58C1A638AAA00E5660D /* Keys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		A50EB1271A562F8A002E0527 /* ParseLoginTestSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseLoginTestSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		A5D7A54D1A5780C600E5660D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A5D7A54F1A578D5400E5660D /* ValidDomains.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ValidDomains.txt; path = ../../PageMD/ValidDomains.txt; sourceTree = "<group>"; };
+		A5D7A58C1A638AAA00E5660D /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				A50EB0EB1A562C02002E0527 /* Info.plist */,
+				A5D7A58C1A638AAA00E5660D /* Keys.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				A5D7A5501A578D5400E5660D /* ValidDomains.txt in Resources */,
 				A50EB0F71A562C02002E0527 /* LaunchScreen.xib in Resources */,
 				A50EB0F41A562C02002E0527 /* Images.xcassets in Resources */,
+				A5D7A58D1A638AAA00E5660D /* Keys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
